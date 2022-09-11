@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/assets/N.png">
+        <title>Notes</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="notes-nav">
+            <!-- Save -->
+            <div class="save">
+                <button class="save-btn">
+                    <ion-icon name="save-outline"></ion-icon>
+                </button>
+            </div>
+            <!-- Sounds -->
+            <div class="sounds">
+                <button class="rain">
+                    <ion-icon name="rainy-outline"></ion-icon>
+                </button>
+                <button class="thunder">
+                    <ion-icon name="thunderstorm-outline"></ion-icon>
+                </button>
+                <button class="water">
+                    <ion-icon name="water-outline"></ion-icon>
+                </button>
+                <button class="night">
+                    <ion-icon name="moon-outline"></ion-icon>
+                </button>
+            </div>
+        </div>
+        <!-- Container -->
+        <div class="notes" id="app">
+            <div class="notes_preview">
+                <textarea class="notes_title">New Note...</textarea>
+                <textarea class="notes_body">Take Note...</textarea>
+            </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="./js/app.js" type="module"></script>
+        <script src="./js/sounds.js" type="module"></script>
+    </body>
+</html>
